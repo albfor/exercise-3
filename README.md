@@ -1,2 +1,2 @@
-# exercise-3
-This is a repository for exercise 3
+# Exercise 3
+This is a repository for exercise 3.
