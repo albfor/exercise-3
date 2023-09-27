@@ -1,0 +1,113 @@
+ git clone git@github.com:albfor/exercise-3.git
+ cd exercise-3
+ git status
+ nvim README.md 
+ git add .
+ git commit -m "First commit"
+ git push
+ git log --oneline 
+ git branch
+ git branch -a
+ git branch temp
+ git branch
+ git branch -a
+ git switch temp
+ ls
+ git status
+ git switch master 
+ ls
+ cd exercise-3
+ ls -la
+ nvim .gitignore 
+ git branch
+ git push origin temp
+ git branch -a
+ git log --oneline 
+ git switch temp
+ git branch -d temp
+ git switch -
+ git branch -d master 
+ git branch -d temp
+ git branch
+ git branch -a
+ git push origin temp
+ git branch -a
+ git push origin temp
+ git push origin -d temp
+ git branch -a
+ git switch develop
+ git pull
+ git branch -a
+ git switch develop
+ git branch -a
+ git log --oneline 
+ nvim .gitignore 
+ git add .
+ git commit -m "Second commit"
+ git log --oneline 
+ git push
+ git commit --amend -m "Ignored all files except .c .md & .sh"
+ git log --oneline 
+ git push
+ git push -f
+ echo "clear; gcc main.c -o main; ./main" > run.sh
+ touch main.c
+ sh run.sh 
+ git status
+ git commit -am "Made the base of the program"
+ git log --oneline 
+ git status
+ git add .
+ git commit -m "Made the base of the program"
+ git log --oneline 
+ git push
+ nvim main.c 
+ sh run.sh 
+ git switch master 
+ git stash
+ git switch master 
+ git switch develop 
+ git stash pop
+ bat main
+ bat main.c
+ git add .
+ git commit -m "print from 1 to 10"
+ git log --oneline 
+ git push
+ ./main 
+ git switch -
+ git status
+ git rm main 
+ rm main 
+ ls
+ git merge develop 
+ git log --oneline 
+ git push
+ git log --oneline
+ git tag v1.0
+ git log --oneline 
+ git push v1.0
+ git push origin v1.0
+ git tag -a v1.0 -m "First version"
+ git tag -af v1.0 -m "First version"
+ git tag -n
+ git push origin -f v1.0
+ git switch develop 
+ nvim main.c 
+ sh run.sh 
+ nvim main.c
+ sh run.sh 
+ git status
+ git add -am "print from 1 to 15"
+ git commit -am "print from 1 to 15"
+ git log --oneline 
+ git push
+ git switch -
+ git merge develop -m "Merged with develop"
+ git log --oneline 
+ git tag -a v2.0 -m "Second version"
+ git log 
+ git tag -n
+ git push
+ git push origin v2.0
+ git log --oneline 

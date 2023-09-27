@@ -1,2 +1,3 @@
 # Exercise 3
-This is a repository for exercise 3.
+
+commands.txt contains the history of the commands I ran during the exercise.
