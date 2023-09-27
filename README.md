@@ -1,3 +1,4 @@
 # Exercise 3
 
-commands.txt contains the history of the commands I ran during the exercise.
+I am to lazy to make a markdown walkthrough, but inside commands.txt is a history 
+of the commands I used to solve the exercise.
